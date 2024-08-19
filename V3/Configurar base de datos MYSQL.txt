@@ -1,0 +1,16 @@
+1. Abre tu consola de MySQL y crea una nueva base de datos:
+
+    CREATE DATABASE juegos_olimpicos;
+
+2. Crea una tabla para almacenar las medallas:
+
+    USE juegos_olimpicos;
+
+CREATE TABLE medallas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    pais VARCHAR(100) NOT NULL,
+    oro INT NOT NULL,
+    plata INT NOT NULL,
+    bronce INT NOT NULL
+);
+
